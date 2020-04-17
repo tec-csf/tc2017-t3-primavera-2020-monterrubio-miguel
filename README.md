@@ -1,9 +1,9 @@
-# Tarea *[Poner aquí el número de la tarea]*. *[Poner aquí el título de la tarea]*
+# Tarea 3. Técnicas de diseño de algoritmos
 
 ---
 
 ##### Integrantes:
-1. *[Poner aquí Nombre y Apellidos del integrante 1]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
+1. *Miguel Monterrubio Bandera* - *A01022153* - *Campus Santa Fe*
 2. *[Poner aquí Nombre y Apellidos del integrante 2]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
 3. *[Poner aquí Nombre y Apellidos del integrante 3]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
 4. *[Poner aquí Nombre y Apellidos del integrante 4]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
