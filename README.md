@@ -46,7 +46,7 @@ Se utiliza una búsqueda binaria para encontrar el valor. Esto significa que tie
 #### Problema 7:
 Si se desea solucionar el problema del laberinto, el cual consiste en encontrar un camino cualquiera que permita salir del mismo  ¿qué técnica de diseño de algoritmo deberá usarse?
 
-Para este problema se utiliza "back tracking", o vuelta atrás, para buscar un posible camino. Si encuentra un callejón sin salida, regresa a donde antes estaba y prueba con otro camino.
+Para este problema se utiliza "back tracking", o vuelta atrás, para buscar un posible camino. Si encuentra un callejón sin salida, regresa a donde antes estaba y prueba con otro camino. En el peor de los casos, recorrería todos los nodos o caminos del laberinto. Esto significa que tiene una complejidad de O(n^2).
 
 ### 2.1 Pasos a seguir para utilizar la aplicación
 
