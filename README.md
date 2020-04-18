@@ -36,7 +36,14 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 ## 2. Solución
 
-*[Incluya aquí una explicación de la solución implementada]*
+
+#### Problema 4: 
+Sea a[1..n] un vector ordenado de enteros todos distintos, implementar un algoritmo con la menor compejidad posible en el peor caso capaz de encontrar un índice i tal que 1≤i≤n y a[i] = i, suponiendo que tal índice exista.
+
+No hay una solución a dicho problema, ya que si es un vector ordenado que empieza desde el número 1, junto con la condición de que no se repiten números, a[i] siempre será i+1 o mayor, empezando por a[0] = 1. El código fue hecho con la suposición de que el vector empieza con el número 0, que permite que se cumpla la solución.
+
+#### Problema 7:
+Si se desea solucionar el problema del laberinto, el cual consiste en encontrar un camino cualquiera que permita salir del mismo  ¿qué técnica de diseño de algoritmo deberá usarse?
 
 ### 2.1 Pasos a seguir para utilizar la aplicación
 
