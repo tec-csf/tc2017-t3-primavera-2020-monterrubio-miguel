@@ -24,7 +24,7 @@ vector<int> create(int size)
 	{
 		
 		do {
-			x = rand() % 100 + 1;
+			x = rand() % 100;
 			it = find(arr.begin(), arr.end(), x);
 
 		} while (it != arr.end());
@@ -76,11 +76,19 @@ int main()
 	int size = 10;
 	
 	vector<int> arr = create(size);
-	printArr(arr);
+	// printArr(arr);
 
 	int i = searchIdx(arr, 0, size-1);
 
-	cout << endl << "indice i encontrado. a[" << i << "] =" << arr[i] << endl;
+	if (i >= 0)
+	{
+		cout << endl << "indice i encontrado. a[" << i << "] =" << arr[i] << endl;
+	}
+
+	else
+	{
+		cout << endl << "indice no encontrado" << endl;
+	}
 
 	return 0;
 }
