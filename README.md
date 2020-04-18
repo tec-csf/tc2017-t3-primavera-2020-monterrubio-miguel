@@ -42,8 +42,11 @@ Sea a[1..n] un vector ordenado de enteros todos distintos, implementar un algori
 
 No hay una solución a dicho problema, ya que si es un vector ordenado que empieza desde el número 1, junto con la condición de que no se repiten números, a[i] siempre será i+1 o mayor, empezando por a[0] = 1. El código fue hecho con la suposición de que el vector empieza con el número 0, que permite que se cumpla la solución.
 
+Se utiliza una búsqueda binaria para encontrar el valor. Esto significa que tiene una complejidad de O(log n).
 #### Problema 7:
 Si se desea solucionar el problema del laberinto, el cual consiste en encontrar un camino cualquiera que permita salir del mismo  ¿qué técnica de diseño de algoritmo deberá usarse?
+
+Para este problema se utiliza "back tracking", o vuelta atrás, para buscar un posible camino. Si encuentra un callejón sin salida, regresa a donde antes estaba y prueba con otro camino.
 
 ### 2.1 Pasos a seguir para utilizar la aplicación
 
